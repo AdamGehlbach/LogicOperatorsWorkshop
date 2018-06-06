@@ -28,7 +28,7 @@ public class Main {
         System.out.println("b = 4");
         System.out.println("x = 6");
         System.out.println("y = 1");
-        
+
         //AND Operator
         if (a == x || y + y == a) {
             //will this method run?
@@ -38,7 +38,39 @@ public class Main {
         } //NOT Operator
         if (a != x && y + y == a) {
             //will this method run?
-            System.out.println("a != x && y + y == a");}
-            // Yes, this will run by using the ! operator this AND will evaluate as true OR both sides
-    }}
+            System.out.println("a != x && y + y == a");
+        }
+        // Yes, this will run by using the ! operator this AND will evaluate as true OR both sides
+        //less than <
+        if(a < b){
+            //Will this method run?
+            System.out.println("a < b");
+//Yes, this will run because the value of a is less than the value of b.
+        }
+
+        //Less than or equal to
+        if (a <= 2){
+            System.out.println("This if statement runs");
+
+        }
+        if (a != 2){
+            System.out.println("so if this runs");
+        }
+        if (b > 2){
+            System.out.println("iF b > 2 is right it will show");
+        }
+        if (b >= 4 ){
+            System.out.println("its true b >= 4");
+        }
+        if (6 == 6){
+            System.out.println("if 6 == 6 is true it will show");
+
+        }
+        
+    }
+ }
+
+
+
+
 
